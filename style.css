@@ -90,7 +90,7 @@ a:focus {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    align-items: center;
+    
 
 }
 
@@ -102,11 +102,21 @@ a:focus {
     width: 50vw;
     background: var(--background);
     box-shadow: var(--box-shadow);
+    
+    
 }
 
 img {
+    
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
     height: 300px;
     width: 300px;
+    margin: auto;
+    display: block;
+    
 }
 
 .buttons {
@@ -301,11 +311,13 @@ h1 {
     width: 50vw;
     background: var(--background);
     box-shadow: var(--box-shadow);
-}
+    align-items: center;
+  }
 
 img {
     height: 200px;
     width: 200px;
+    margin: auto;
 }
 
 } 
