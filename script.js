@@ -4,6 +4,8 @@ const toggleIcon = document.getElementById('toggle-icon');
 const image1 = document.getElementById('image1');
 const image2 = document.getElementById('image2');
 const image3 = document.getElementById('image3');
+const image4 = document.getElementById('image4');
+const image5 = document.getElementById('image5');
 const textBox = document.getElementById('text-box');
 const titleButton = document.getElementById('title-button');
 
@@ -54,7 +56,9 @@ typeNow();
 const imageMode = (color) => {
     image1.src = `img/undraw_portfolio_website_lidw_${color}.svg`;
     image2.src = `img/undraw_react_y7wq_${color}.svg`;
-    image3.src = `img/undraw_Scrum_board_re_wk7v_${color}.svg`;  
+    image3.src = `img/undraw_Scrum_board_re_wk7v_${color}.svg`;
+    image4.src = `img/undraw_posting_photo_${color}.svg`;
+    image5.src = `img/undraw_profile_${color}.svg`;
 }
 
 
