@@ -5,6 +5,10 @@ const image1 = document.getElementById('image1');
 const image2 = document.getElementById('image2');
 const image3 = document.getElementById('image3');
 const textBox = document.getElementById('text-box');
+const titleButton = document.getElementById('title-button');
+
+titleButton.style.visibility = 'hidden';
+
 let darkMode = true;
 const words = ["Hello...", "I'm Ryan Ekvall...", "I am a web developer...", "Thanks for stopping by...", "See more below"];
 
@@ -42,6 +46,7 @@ function deleteNow() {
       counter = setTimeout(loopDeleting, 100);
    };
    loopDeleting();
+   
 };
 typeNow();
 
